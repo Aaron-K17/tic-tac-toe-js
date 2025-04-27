@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Tic Tac Toe</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Choose a Character (X or O):</h1>
+      <div class="chooseCharacterButtons">
+        <button class="x" id="x">X</button>
+        <button class="o" id="o">O</button>
+        <button class="reset" id="reset">Reset</button>
+      </div>
+      <div class="chooseCharacterText">
+        <h6>Your chosen character is: <span id="chosenCharacter"></span></h6>
+        <!--  <div>
+          <h6>Your chosen character is: <span id="chosenCharacter"></span></h6>
+        </div> -->
+      </div>
+      <div class="winningMessage">
+        <h6><span id="winningCharacter"></span> wins the game!</h6>
+      </div>
+      <div class="board">
+        <div class="row top">
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+        </div>
+        <div class="row middle">
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+        </div>
+        <div class="row bottom">
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
